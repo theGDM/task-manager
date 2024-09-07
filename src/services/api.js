@@ -1,13 +1,14 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
-const baseURL = 'https://task-manager-service-c5ko.onrender.com';
+const baseURL = 'https://assignment-task-voosh-service.onrender.com';
 
-export const register = async (fullName, email, password) => {
+export const register = async (fullName, email, password, avatar) => {
     try {
         let response = await axios.post(`${baseURL}/api/auth/register`, {
             fullName: fullName,
             email: email,
-            password: password
+            password: password,
+            avatar: avatar
         });
 
         return response.data;

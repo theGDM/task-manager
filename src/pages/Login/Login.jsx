@@ -215,7 +215,7 @@ export default function Login() {
                             sx={{
                                 mt: '0.3rem',
                                 mb: '0.2rem',
-                                backgroundColor: colors.blackAccent[400],
+                                backgroundColor: colors.redAccent[500],
                                 "&:hover": {
                                     backgroundColor: colors.blackAccent[500], // Set your desired hover color
                                 },
