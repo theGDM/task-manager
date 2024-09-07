@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 const THEME = createTheme({
   typography: {
     "fontFamily": `"Lexend Deca", sans-serif`,
-    'fontWeightLight': 200
+    'fontWeightLight': 200,
   }
 });
 

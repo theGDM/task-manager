@@ -35,11 +35,15 @@ export default function UpdateTask({ isOpen, onClose, task }) {
             width: isMobile ? '95%' : '30%',
             height: '80%',
             backgroundColor: colors.blackAccent[500],
-            borderRadius: '1rem',
-            boxShadow: '0px 0px 0px rgba(0, 0, 0, 0.8)',
+            borderRadius: '0.5rem',
+            boxShadow: '0.2rem 0.2rem 0.2rem rgba(2, 2, 2, 0.8)',
             overflow: 'auto',
             padding: '1rem',
-            background: "#000000"
+            background: "#000000",
+            border: '0'
+        },
+        overlay: {
+            backgroundColor: 'rgba(0, 0, 0, 0.8)', // Set your desired barrier color here
         },
     };
 
