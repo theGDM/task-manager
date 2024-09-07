@@ -100,7 +100,7 @@ export default function Register() {
                     left: '50%',
                     opacity: '0.95',
                     transform: 'translate(-50%, -50%)',
-                    backgroundColor: colors.primary[600],
+                    backgroundColor: colors.blackAccent[700],
                     padding: "2rem",
                     borderRadius: "0.5rem",
                     boxShadow: "0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.9)",
@@ -126,7 +126,7 @@ export default function Register() {
                         type="text"
                         variant="filled"
                         sx={{
-                            backgroundColor: colors.primary[400],
+                            backgroundColor: colors.blackAccent[600],
                             '& .MuiInputBase-input': {
                                 fontSize: '1.3rem', // Adjust the font size as needed
                                 height: '2rem', // Adjust the height of the text area
@@ -157,7 +157,7 @@ export default function Register() {
                         type="text"
                         variant="filled"
                         sx={{
-                            backgroundColor: colors.primary[400],
+                            backgroundColor: colors.blackAccent[600],
                             '& .MuiInputBase-input': {
                                 fontSize: '1.3rem', // Adjust the font size as needed
                                 height: '2rem', // Adjust the height of the text area
@@ -188,7 +188,7 @@ export default function Register() {
                         type="text"
                         variant="filled"
                         sx={{
-                            backgroundColor: colors.primary[400],
+                            backgroundColor: colors.blackAccent[600],
                             '& .MuiInputBase-input': {
                                 fontSize: '1.3rem', // Adjust the font size as needed
                                 height: '2rem', // Adjust the height of the text area
@@ -219,7 +219,7 @@ export default function Register() {
                         type="password"
                         variant="filled"
                         sx={{
-                            backgroundColor: colors.primary[400],
+                            backgroundColor: colors.blackAccent[600],
                             '& .MuiInputBase-input': {
                                 fontSize: '1.3rem', // Adjust the font size as needed
                                 height: '2rem', // Adjust the height of the text area
@@ -244,7 +244,7 @@ export default function Register() {
                         type="password"
                         variant="filled"
                         sx={{
-                            backgroundColor: colors.primary[400],
+                            backgroundColor: colors.blackAccent[600],
                             '& .MuiInputBase-input': {
                                 fontSize: '1.3rem', // Adjust the font size as needed
                                 height: '2rem', // Adjust the height of the text area
@@ -304,9 +304,9 @@ export default function Register() {
                             sx={{
                                 mt: '0.3rem',
                                 mb: '0.2rem',
-                                backgroundColor: colors.primary[400],
+                                backgroundColor: colors.blackAccent[400],
                                 "&:hover": {
-                                    backgroundColor: colors.primary[500], // Set your desired hover color
+                                    backgroundColor: colors.blackAccent[500], // Set your desired hover color
                                 },
                                 fontSize: '1.2rem',
                                 borderRadius: '0'

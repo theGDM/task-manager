@@ -145,7 +145,7 @@ const Dashboard = () => {
                     </Button>
                     <Box height='5rem' bgcolor={colors.greenAccent[500]} display='flex' flexDirection='row' justifyContent='space-between' alignItems='center' p='0 1rem'>
                         <Box display='flex' alignItems='center' >
-                            <Typography fontSize='1.4rem' color={colors.primary[500]}>
+                            <Typography fontSize='1.4rem' color={colors.blackAccent[500]}>
                                 Search:
                             </Typography>
                             <TextField
@@ -159,7 +159,7 @@ const Dashboard = () => {
                                     },
                                     '& .MuiOutlinedInput-root': {
                                         '& fieldset': {
-                                            borderColor: colors.primary[400], // Default border color
+                                            borderColor: colors.blackAccent[500], // Default border color
                                         },
                                         '&:hover fieldset': {
                                             borderColor: colors.blueAccent[600], // Border color on hover
@@ -177,7 +177,7 @@ const Dashboard = () => {
 
                         </Box>
                         <Box display='flex' alignItems='center' >
-                            <Typography fontSize='1.4rem' color={colors.primary[500]}>
+                            <Typography fontSize='1.4rem' color={colors.blackAccent[500]}>
                                 Sort By :
                             </Typography>
                             <Select
@@ -191,7 +191,7 @@ const Dashboard = () => {
                                     height: '3.6rem',
                                     color: 'white',
                                     '.MuiOutlinedInput-notchedOutline': {
-                                        borderColor: colors.primary[400],
+                                        borderColor: colors.blackAccent[500],
                                     },
                                     '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
                                         borderColor: colors.blueAccent[600],// Border color when focused
@@ -202,7 +202,7 @@ const Dashboard = () => {
                                         borderWidth: '0.2rem'
                                     },
                                     '.MuiSvgIcon-root ': {
-                                        borderColor: colors.primary[400], // Default border color
+                                        borderColor: colors.blackAccent[500], // Default border color
                                     }
                                 }}
                                 MenuProps={{
@@ -232,7 +232,7 @@ const Dashboard = () => {
                         <Grid container spacing={3} direction={isMobile ? 'column' : 'row'}>
                             <Grid item xs={4} >
                                 <Box height='50rem'
-                                    bgcolor={colors.primary[400]}
+                                    bgcolor={colors.blackAccent[600]}
                                     display='flex'
                                     alignItems='center'
                                     flexDirection='column'
@@ -257,7 +257,7 @@ const Dashboard = () => {
                             </Grid>
                             <Grid item xs={4}>
                                 <Box height='50rem'
-                                    bgcolor={colors.primary[400]}
+                                    bgcolor={colors.blackAccent[600]}
                                     display='flex'
                                     alignItems='center'
                                     flexDirection='column'
@@ -283,7 +283,7 @@ const Dashboard = () => {
                             </Grid>
                             <Grid item xs={4}>
                                 <Box height='50rem'
-                                    bgcolor={colors.primary[400]}
+                                    bgcolor={colors.blackAccent[600]}
                                     display='flex'
                                     alignItems='center'
                                     flexDirection='column'
