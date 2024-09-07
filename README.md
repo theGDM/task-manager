@@ -34,9 +34,12 @@
 - Drag-and-drop functionality to drag the task to the desired columnuse. ✅
 - Authentication for every page. ✅
 - Used Git to track changes in the code. ✅
+- Intuitive Insterface and responsive UI. ✅
+
+## **Task Requirements :**
+- User profile with avatar ✅
 - Task due dates and reminders. ✅
 - Task sorting and searching capabilities. ✅
-- Intuitive Insterface and responsive UI. ✅
 
 ## **Steps to Run the Application (Locally):**
 1. Firstly fork the given repo.
@@ -55,4 +58,4 @@
 ## **Steps to Run the Application (Production):**
 
 1. The application is deployed on the AWS Amplify.
-    - > https://main.d3rbklfneqbb62.amplifyapp.com/
+    - > https://main.dvgoikkbuyi2j.amplifyapp.com/

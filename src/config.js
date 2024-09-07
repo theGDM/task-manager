@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_API_KEY,
+    apiKey: "AIzaSyCjEJthU2FUaRkBD2ia2kHvdFXCMDj0WBk",
     authDomain: "gdmprojects-cf226.firebaseapp.com",
     projectId: "gdmprojects-cf226",
     storageBucket: "gdmprojects-cf226.appspot.com",
     messagingSenderId: "457916488611",
-    appId: process.env.REACT_APP_APP_ID
+    appId: "1:457916488611:web:e7484ff919b7964e629816"
 };
 
 // Initialize Firebase
