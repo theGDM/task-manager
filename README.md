@@ -3,13 +3,6 @@
 ![Screenshot 2024-09-07 230556](https://github.com/user-attachments/assets/4cbb4083-bb00-4ac6-83b4-2d601d53a688)
 ![Screenshot 2024-07-22 180030](https://github.com/user-attachments/assets/a8c8ee52-095a-41f9-b10b-5179d10a3f52)
 
-## **Mobile View :**
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/8508855f-de51-40a0-b64a-3bf19480ea25" width="320" />
-  <img src="https://github.com/user-attachments/assets/255cb1d8-2302-43b1-9933-b563462c5d2c" width="320" /> 
-  <img src="https://github.com/user-attachments/assets/f2befe65-78ff-4091-806e-b260355e1e2d" width="320" /> 
-</p>
-
 ## **Tech Used :**
 **Frontend:** `React.js` `CSS` `Redux` `Material UI`
 
