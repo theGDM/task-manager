@@ -6,7 +6,7 @@ import { tokens } from "../../theme";
 import { useTheme } from "@mui/material";
 import Box from "@mui/material/Box";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import backgroundImageUrl from '../../assets/bg.jpg';
+import backgroundImageUrl from '../../assets/bg-2.jpg';
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -58,20 +58,23 @@ export default function Login() {
         } else {
             localStorage.setItem("userEmail", response.email);
             localStorage.setItem('userId', response._id);
+            localStorage.setItem('avatarId', response.avatar);
             dispatch(SetUser(response));
             navigate('/dashboard');
         }
     };
 
-    const handleGoogleSignIn = () => {
+    const handleGoogleSignIn = async () => {
         signInWithPopup(auth, provider).then(async (data) => {
-            let response = await getUser(data.user.email);
-            console.log(response);
+            setLoggedIn(true);
+            let response = await signIn(data.user.email, data.user.uid);
+            setLoggedIn(false);
             if (response.message != null) {
                 toast(response.message);
             } else {
                 localStorage.setItem("userEmail", response.email);
                 localStorage.setItem('userId', response._id);
+                localStorage.setItem('avatarId', response.avatar);
                 dispatch(SetUser(response));
                 navigate('/dashboard');
             }

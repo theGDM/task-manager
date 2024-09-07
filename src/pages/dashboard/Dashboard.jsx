@@ -238,7 +238,7 @@ const Dashboard = () => {
                                     flexDirection='column'
                                     p='1rem 1.6rem'
                                 >
-                                    <Box height='3.5rem' width='100%' bgcolor={colors.redAccent[400]} display='flex' justifyContent='center' alignItems='center'>
+                                    <Box height='3.5rem' width='100%' bgcolor={colors.blackAccent[800]} display='flex' justifyContent='center' alignItems='center'>
                                         <Typography fontSize='1.5rem' fontWeight='500' textAlign='center' color='white'>TODO</Typography>
                                     </Box>
                                     <Droppable droppableId="todoslist">
@@ -264,7 +264,7 @@ const Dashboard = () => {
                                     scrollBehavior='auto'
                                     p='1rem 1.6rem'
                                 >
-                                    <Box height='3.5rem' width='100%' bgcolor='#20a7db' display='flex' justifyContent='center' alignItems='center'>
+                                    <Box height='3.5rem' width='100%' bgcolor={colors.blackAccent[800]} display='flex' justifyContent='center' alignItems='center'>
                                         <Typography fontSize='1.5rem' fontWeight='500' textAlign='center' color='white'>IN PROCESS</Typography>
                                     </Box>
                                     <Droppable droppableId="inprocesslist">
@@ -290,7 +290,7 @@ const Dashboard = () => {
                                     scrollBehavior='auto'
                                     p='1rem 1.6rem'
                                 >
-                                    <Box height='3.5rem' width='100%' bgcolor={colors.greenAccent[600]} display='flex' justifyContent='center' alignItems='center'>
+                                    <Box height='3.5rem' width='100%' bgcolor={colors.blackAccent[800]} display='flex' justifyContent='center' alignItems='center'>
                                         <Typography fontSize='1.5rem' fontWeight='500' textAlign='center' color='white'>COMPLETED</Typography>
                                     </Box>
                                     <Droppable droppableId="completedlist">

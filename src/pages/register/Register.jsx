@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { ThreeDots } from "react-loader-spinner";
 import Header from "../../components/Header";
-import { getUser, register } from "../../services/api";
+import { getUser, register, signIn } from "../../services/api";
 import { auth, provider } from "../../config";
 import { signInWithPopup } from "firebase/auth";
 import { useDispatch } from "react-redux";
@@ -85,10 +85,10 @@ export default function Register() {
 
     const handleGoogleSignUp = () => {
         signInWithPopup(auth, provider).then(async (data) => {
-            console.log(data);
-            await register(data.user.displayName, data.user.email, '12345');
-            let response = await getUser(data.user.email);
-            console.log(response);
+            setRegistered(true);
+            await register(data.user.displayName, data.user.email, data.user.uid, avatarValue);
+            let response = await signIn(data.user.email, data.user.uid);
+            setRegistered(false);
             if (response.message != null) {
                 toast(response.message);
             } else {
@@ -386,7 +386,7 @@ export default function Register() {
                                 </Typography>
                             </Box>
                         </MenuItem>
-                        <MenuItem value={7} >
+                        <MenuItem value={8} >
                             <Box display='flex' flexDirection='row' justifyContent='space-between' alignItems='center' width='100%'>
                                 <img src={bear} alt="icon" style={{ width: '2.5rem', height: '2.5rem', objectFit: 'cover' }} />
                                 <Typography

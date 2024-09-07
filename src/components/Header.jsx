@@ -22,11 +22,8 @@ export default function Header() {
     let userData = useSelector((state) => state.userData);
 
     const avatarCreator = () => {
-        console.log('this function called')
-        let id = userData.user.avatar;
-        console.log(userData);
-        console.log('iddddd', id);
-        switch (id) {
+        let id = localStorage.getItem('avatarId');
+        switch (parseInt(id)) {
             case 1: return <img src={profile} style={{ height: '80%' }} />;
             case 2: return <img src={man} style={{ height: '80%' }} />;
             case 3: return <img src={woman} style={{ height: '80%' }} />;
