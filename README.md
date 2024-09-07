@@ -2,6 +2,7 @@
 ![Screenshot 2024-09-07 230455](https://github.com/user-attachments/assets/c5164a15-fbd7-44b1-ab94-0e3befa3678d)
 ![Screenshot 2024-09-07 230556](https://github.com/user-attachments/assets/4cbb4083-bb00-4ac6-83b4-2d601d53a688)
 ![Screenshot 2024-09-07 232844](https://github.com/user-attachments/assets/7fa5657b-b7c5-4049-9bc3-f185940e6ee0)
+![Screenshot 2024-09-07 234841](https://github.com/user-attachments/assets/a3232359-af9b-4c43-859f-351d0cb38c1e)
 
 ## **Tech Used :**
 **Frontend:** `React.js` `CSS` `Redux` `Material UI`
