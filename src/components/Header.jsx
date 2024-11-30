@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, useTheme } from "@mui/material";
 import Box from "@mui/material/Box";
-import logo from '../assets/vooshlogo.png';
+import logo from '../assets/task.png';
 import { tokens } from "../theme";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";

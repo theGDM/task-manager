@@ -37,16 +37,16 @@
 
 ## **Steps to Run the Application (Locally):**
 1. Firstly fork the given repo.
-2. Create a folder named ‘voosh-assignment-task-gyandeep’ in Visual Studio.
-3. Clone the github repo to the respective ‘Weekday-Task-Gyandeep’ folder, using the command.
-   - `$git clone https://github.com/YOUR-USERNAME/voosh-assignment-task.git`
-4. Now go to the ‘voosh-assignment-task’ directory.
+2. Create a folder named ‘task-manager’ in Visual Studio.
+3. Clone the github repo to the respective ‘task-manager’ folder, using the command.
+   - `$git clone https://github.com/YOUR-USERNAME/task-manager.git`
+4. Now go to the ‘task-manager’ directory.
 5. Now open the terminal and run the command `npm install` in the same directory, so
     It will install all the dependencies and the modules.
 6. Now run the react app using the command `npm start`.
 
 
-**`Github Link :`** https://github.com/theGDM/voosh-assignment-task
+**`Github Link :`** https://github.com/theGDM/task-manager
 
 
 ## **Steps to Run the Application (Production):**
