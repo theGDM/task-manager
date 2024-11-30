@@ -30,7 +30,7 @@
 - Used Git to track changes in the code. ✅
 - Intuitive Insterface and responsive UI. ✅
 
-## **Task Requirements :**
+## **Bonus Features :**
 - User profile with avatar ✅
 - Task due dates and reminders. ✅
 - Task sorting and searching capabilities. ✅
